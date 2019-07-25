@@ -1,7 +1,4 @@
-    
----
-# This playbook uses the win_ping module to test connectivity to Windows hosts    
-  - name: "Warn logged in users of impending upgrade"
-    win_msg: 
-      display_seconds: 60
-      msg: "TEBYA POPINGOVALI"
+- name: Warn logged in users of impending upgrade
+  win_msg:
+    display_seconds: 60
+    msg: Tebya popingovali
